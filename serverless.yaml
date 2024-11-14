@@ -1,0 +1,9 @@
+service: your-service-name
+
+provider:
+  name: your-provider
+  runtime: nodejs14.x # or your desired Node.js version
+
+functions:
+  myFunction:
+    handler: api/users/file1.handler # Update this to match your actual file and export
